@@ -1,0 +1,13 @@
+prefix=/home/shazam/ML_Project/venv
+exec_prefix=/home/shazam/ML_Project/venv
+libdir=/home/shazam/ML_Project/venv/lib
+sharedlibdir=/home/shazam/ML_Project/venv/lib
+includedir=/home/shazam/ML_Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
