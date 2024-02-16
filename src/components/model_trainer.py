@@ -99,7 +99,7 @@ class ModelTrainer:
                 list(report.values()).index(best_model_score)
             ]
 
-            best_params = best_param.get(best_model_name)
+            # best_params = best_param.get(best_model_name)
 
             best_model=models[best_model_name]
 
