@@ -1,6 +1,6 @@
 # ML_Project
 
-## The goal of this project is to predict the maths score of a student (Resgression analysis)
+The goal of this project is to predict the maths score of a student (Resgression analysis)
 
 ## There are 7 independent features:
 
