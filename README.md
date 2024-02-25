@@ -22,3 +22,6 @@ The goal of this project is to predict the maths score of a student (Regression 
 ## There is 1 dependent feature:
 
 -> Maths score: marks obtained in maths 
+
+
+You can clone the code and run the application.py file for the running the application
