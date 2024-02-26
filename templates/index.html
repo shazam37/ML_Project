@@ -29,7 +29,15 @@
             <p class="lead mb-4"> You can specify the values of 7 features related to a student and check the maths score prediction. To enter the prediciton page, click the button below: </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center" bis_skin_checked="1">
                 <form action="{{ url_for('predict_datapoint')}}">
-                <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Click here</button>
+                    <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Click here</button>
+                </form>
+            </div>
+            <br>
+            <br>
+            <p class="lead mb-4"> You can check out the Analysis Notebook by clicking here:</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center" bis_skin_checked="1">
+                <form action="{{ url_for('show_analysis')}}">
+                    <button type="submit" class="btn btn-success">Click Here</button>
                 </form>
             </div>
             </div>

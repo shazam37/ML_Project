@@ -14,7 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: cyan;
+        background-color: rgb(0, 224, 0);
        }
        .form-label {
         color: red;
@@ -29,12 +29,12 @@
 </head>
 <body>
     <div class="'login">
-        <h1>Student Exam Performance Indicator</h1>
+        <h1>Student Exam Performance Predictor</h1>
 
         <form action="{{ url_for('predict_datapoint')}}" method="post">
-        <h1>
+        <!-- <h1>
             <legend>Student Exam Performance Prediction</legend>
-        </h1>
+        </h1> -->
         <div class="mb-3">
             <label class="form-label">Gender</label>
             <select class="form-control" name="gender" placeholder="Enter your Gender" required>

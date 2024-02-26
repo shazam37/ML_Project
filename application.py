@@ -1,4 +1,6 @@
-from flask import Flask,request,render_template
+import os
+
+from flask import Flask,request,render_template, send_from_directory, send_file
 import numpy as np
 import pandas as pd
 
@@ -36,6 +38,12 @@ def predict_datapoint():
         results=predict_pipeline.predict(pred_df)
         
         return render_template('home.html',results=results[0])
+    
+@app.route('/analysis', methods=['GET'])
+def show_analysis():
+    workingdir = os.path.abspath(os.getcwd())
+    filepath = workingdir + '/notebook/data/eda-student-performance.pdf'
+    return send_file(filepath,mimetype='application/pdf')
     
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=5000)
