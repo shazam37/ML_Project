@@ -2,7 +2,7 @@
 
 The goal of this project is to predict the maths score of a student (Regression analysis)
 
-## There are 7 independent features:
+### There are 7 independent features:
 
 -> gender: gender of the student
 
@@ -19,7 +19,7 @@ The goal of this project is to predict the maths score of a student (Regression 
 -> reading score: marks obtained in reading 
 
 
-## There is 1 dependent feature:
+### There is 1 dependent feature:
 
 -> Maths score: marks obtained in maths 
 
