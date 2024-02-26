@@ -24,4 +24,9 @@ The goal of this project is to predict the maths score of a student (Regression 
 -> Maths score: marks obtained in maths 
 
 
-You can clone the code and run the application.py file for the running the application
+You can clone the code and run the application.py file for the starting the application. You can enter the prediction page or you can even check out the analysis notebook. The interface will look like:
+
+![Screenshot from 2024-02-26 17-43-04](https://github.com/shazam37/ML_Project/assets/119686545/aca02fe2-7fde-47a5-8f38-1d09f18df4d2)
+
+Would be happy to receive suugestions and improvements. Enjoy predicting! 
+
